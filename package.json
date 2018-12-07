@@ -7,7 +7,7 @@
     "start": "gulp",
     "build": "gulp build --pu",
     "deleteAll": "gulp deleteAll",
-    "deleteBuild": "gulp deleteBuild",
+    "deletePublic": "gulp deletePublic",
     "deleteDocs": "gulp deleteDocs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
