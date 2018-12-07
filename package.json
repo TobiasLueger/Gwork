@@ -1,0 +1,57 @@
+{
+  "name": "lernprojekt",
+  "version": "1.0.0",
+  "description": "Simple repo to test my skills!",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --pu",
+    "deleteAll": "gulp deleteAll",
+    "deleteBuild": "gulp deleteBuild",
+    "deleteDocs": "gulp deleteDocs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasLueger/lern_projekt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobiasLueger/lern_projekt/issues"
+  },
+  "homepage": "https://github.com/TobiasLueger/lern_projekt#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "browser-sync": "^2.26.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-directory-map": "^0.1.3",
+    "gulp-if": "^2.0.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-svg-sprite": "^1.3.7",
+    "gulp-twig": "^1.2.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "gulp-zip": "^4.1.0",
+    "sass": "^1.15.1"
+  }
+}
