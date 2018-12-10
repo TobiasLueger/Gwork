@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Tobias Lüger -- Developer
 
 # THANKS
 
-    <name>
+    To the whole web ;)
 
 # TECHNOLOGY COLOPHON
 
