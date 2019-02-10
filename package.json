@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TobiasLueger/lern_projekt.git"
+    "url": "git+https://github.com/TobiasLueger/Gwork"
   },
-  "author": "",
+  "author": "Tobias Lüger",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TobiasLueger/lern_projekt/issues"

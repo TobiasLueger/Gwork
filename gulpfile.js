@@ -25,7 +25,7 @@ const paths = {
 	},
 
 	templates: {
-		html: './*.html'
+		html: './templates/*.html'
 	},
 
 	expo: {
@@ -109,7 +109,7 @@ const watch = () => {
 		paths.templates.html,
 		paths.img.img_main],
 
-		gulp.series(copyHtmlPub, styles, scripts, copyImgPub, reload))
+		gulp.series(cleanPublic, copyHtmlPub, styles, scripts, copyImgPub, reload))
 };
 /**
  *

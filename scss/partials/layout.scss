@@ -39,6 +39,7 @@ body {
 header {
 	width: 100vw;
 	height: 100vh;
+	overflow: hidden;
 
 	& .header-main {
 		width: 100vw;
@@ -47,6 +48,7 @@ header {
 		position: relative;
 
 		& .header-title {
+			color: #27577f;
 			position: absolute;
 			top: 50%;
 			left: 50%;
@@ -55,19 +57,24 @@ header {
 			display: flex;
 			flex-direction: column;
 			z-index: 1;
-
+			font-size: large;
 
 			& span {
-				color: #ffffff;
 				font-weight: bold;
-				font-size: 300%;
-				font-family: "Luminari";
-				margin-top: 35px;
+				font-size: 100px;
+				margin-top: -30px;
 			}
 		}
 
 		& .cloud {
 			position: absolute;
+
+
+			@media (max-width: 768px) {
+				&3, &4, &8{
+					display: none;
+				}
+			}
 
 			&1 {
 				left: 30%;
@@ -88,7 +95,7 @@ header {
 			}
 
 			&4 {
-				left: 20%;
+				left: 75%;
 				top: 20%;
 				width: 150px;
 			}
@@ -118,12 +125,4 @@ header {
 			}
 		}
 	}
-}
-
-main {
-	background-color: #555555;
-}
-
-footer {
-	background-color: #555555;
 }
