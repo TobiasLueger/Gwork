@@ -66,6 +66,10 @@ header {
 			}
 		}
 
+		& #scene {
+			height: 100%;
+		}
+
 		& .cloud {
 			position: absolute;
 
@@ -77,50 +81,50 @@ header {
 			}
 
 			&1 {
-				left: 30%;
-				top: 30%;
+				left: 30%!important;
+				top: 30%!important;
 				width: 30px;
 			}
 
 			&2 {
-				left: 80%;
-				top: 70%;
+				left: 80%!important;
+				top: 70%!important;
 				width: 200px;
 			}
 
 			&3 {
-				left: 60%;
-				top: 70%;
+				left: 60%!important;
+				top: 70%!important;
 				width: 70px;
 			}
 
 			&4 {
-				left: 75%;
-				top: 20%;
+				left: 75%!important;
+				top: 20%!important;
 				width: 150px;
 			}
 
 			&5 {
-				left: 10%;
-				top: 50%;
+				left: 10%!important;
+				top: 50%!important;
 				width: 230px;
 			}
 
 			&6 {
-				left: 8%;
-				top: 5%;
+				left: 8%!important;
+				top: 5%!important;
 				width: 150px;
 			}
 
 			&7 {
-				left: 50%;
-				top: 10%;
+				left: 50%!important;
+				top: 10%!important;
 				width: 100px;
 			}
 
 			&8 {
-				left: 10%;
-				top: 45%;
+				left: 10%!important;
+				top: 45%!important;
 				width: 30px;
 			}
 		}
